@@ -12,6 +12,7 @@ import com.developer.techies.retrofittutorial.R;
 import com.developer.techies.retrofittutorial.adapter.holder.ResponseHolder;
 import com.developer.techies.retrofittutorial.model.Item;
 import com.developer.techies.retrofittutorial.utils.ItemListener;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -44,6 +45,8 @@ public class ResponseAdapter extends RecyclerView.Adapter<ResponseHolder>{
     public void onBindViewHolder(@NonNull ResponseHolder holder, int position) {
 
         Item item = items.get(position);
+
+        Picasso.with(holder.itemView.getContext()).load(item.getOwner().getProfileImage()).placeholder(R.drawable.ic_launcher_background).into(holder.mPhoto);
         holder.titleTv.setText(item.getOwner().getDisplayName());
     }
 
