@@ -22,10 +22,9 @@ public class ResponseAdapter extends RecyclerView.Adapter<ResponseHolder>{
     private Context mContext;
     private ItemListener<Item> listener;
 
-    public ResponseAdapter(Context context, List<Item> items, ItemListener<Item> listener){
+    public ResponseAdapter(List<Item> items, ItemListener<Item> listener){
 
         this.items = items;
-        this.mContext = context;
         this.listener = listener;
     }
 
@@ -48,6 +47,8 @@ public class ResponseAdapter extends RecyclerView.Adapter<ResponseHolder>{
 
         Picasso.with(holder.itemView.getContext()).load(item.getOwner().getProfileImage()).placeholder(R.drawable.ic_launcher_background).into(holder.mPhoto);
         holder.titleTv.setText(item.getOwner().getDisplayName());
+
+        holder.itemView.setOnClickListener(v -> listener.onItemClick(item));
     }
 
     @Override
