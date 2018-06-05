@@ -3,12 +3,7 @@ In this SimpleAndroidApp, we will be looking at how we can make use of Retrofit 
 
 #As time goes on, I will be updating this application, and should in case you need me to add anything to it, feel free to create an issue on it (even though the meaning of issue sounds different from its main concerning this project) *winks*
 
-So, in this simple application, we have actually been able to come up with the below picture. 
+So, in this simple application, we have actually been able to come up with the below picture. once any user is clicked on, the image below shows the user's profile.
 
-<img src="https://github.com/meshileya/SimpleAndroidApp/blob/master/finished_work.png" width="50" height="90">
-
-once any user is clicked on, the image below shows the user's profile.
-
-
-<img src="https://github.com/meshileya/SimpleAndroidApp/blob/master/profile.png" width="50" height="90">
+<img src="https://github.com/meshileya/SimpleAndroidApp/blob/master/finished_work.png" width="150" height="190">      <img src="https://github.com/meshileya/SimpleAndroidApp/blob/master/profile.png" width="150" height="190">
 
