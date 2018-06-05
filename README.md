@@ -5,7 +5,10 @@ In this SimpleAndroidApp, we will be looking at how we can make use of Retrofit 
 
 So, in this simple application, we have actually been able to come up with the below picture. 
 
-![alt text](https://github.com/meshileya/SimpleAndroidApp/blob/master/finished_work.png) <!-- .element height="80%" width="40%" -->
+<img src="https://github.com/meshileya/SimpleAndroidApp/blob/master/finished_work.png" width="50" height="90">
 
 once any user is clicked on, the image below shows the user's profile.
-![alt text](https://github.com/meshileya/SimpleAndroidApp/blob/master/profile.png) <!-- .element height="80%" width="40%" -->
+
+
+<img src="https://github.com/meshileya/SimpleAndroidApp/blob/master/profile.png" width="50" height="90">
+
